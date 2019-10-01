@@ -86,7 +86,6 @@ contentPick.addEventListener("mouseover", () => {
 
 })
 
-const navDefault = document.querySelector(".nav")
-navDefault.addEventListener("click", () => {
-    navDefault.preventDefault();
-})
+document.querySelector(".nav").addEventListener("click", function(event){
+    event.preventDefault()
+  });
